@@ -8,11 +8,10 @@ Section:NewButton("Dupe Pet", "Dupe Pet", function()
 local fromPet = "Dog"
 local toPet = "Huge Rave Troll"
 for i,v in pairs(lib.Directory.Pets[fromPet]) do
-  lib.Directory.Pets[fromPet][i] = nil
-local fromPet = "Cat"
+  libt"
 end
 for i,v in pairs(lib.Directory.Pets[toPet]) do
-  lib.Directory.Pets[fromPet][i] = v
+  lib.Directory.PemPet][i] = v
 end
 
 local args = {
